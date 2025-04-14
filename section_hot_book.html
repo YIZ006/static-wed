@@ -1,0 +1,456 @@
+<div class="section_hot_book">
+  <div class="container">
+    <div class="row row-title">
+      <div class="col-xs-6">
+        <h2 class="title">
+          <a title="Truyện Hot" class="rv-sr-a" href="loctruyen.html"
+            >Truyện Hot</a
+          >
+          <!-- ::after -->
+        </h2>
+      </div>
+      <div class="col-xs-6">
+        <select class="album" id="ss_category">
+          <option value="">Tất cả</option>
+          <option value="K8">Truyện Teen Hay</option>
+          <option value="">Ngôn tình ngược</option>
+          <option value="">Tiên hiệp hay</option>
+          <option value="">Truyện Hot</option>
+          <option value="">Kiếm Hiệp Hay</option>
+          <!-- ::after -->
+        </select>
+      </div>
+      <div class="grid-items">
+        <div class="row row-custom">
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Thiên Tài Bóng Đá">
+                <img
+                  src="https://th.bing.com/th/id/OIP.jsiX_pRuql9jaUY2berjhgHaKa?w=198&h=279&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Thiên Tài Bóng Đá"
+                />
+              </a>
+              <div class="rate">7.5/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Thiên Tài Bóng Đá">
+                <h3>Thiên Tài Bóng Đá</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Nữ Hoàng Băng Giá">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="Nữ Hoàng Băng Giá"
+                />
+              </a>
+              <div class="rate">8.2/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Nữ Hoàng Băng Giá">
+                <h3>Nữ Hoàng Băng Giá</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Đại Đạo Độc Hành">
+                <img
+                  src="https://th.bing.com/th/id/OIP.MgYN9Cz-fVn5sIwx8cgzbAAAAA?w=123&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Đại Đạo Độc Hành"
+                />
+              </a>
+              <div class="rate">9.1/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Đại Đạo Độc Hành">
+                <h3>Đại Đạo Độc Hành</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Ma Vương Tái Sinh">
+                <img
+                  src="https://th.bing.com/th/id/OIP.-36rO3nb9mYNmBqG3C8ThAHaKd?w=146&h=207&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Ma Vương Tái Sinh"
+                />
+              </a>
+              <div class="rate">7.8/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Ma Vương Tái Sinh">
+                <h3>Ma Vương Tái Sinh</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Natra :Ma đồng giáng thế">
+                <img
+                  src="https://th.bing.com/th/id/OIP.1N2KlG9Ix4777THdfJlmHQHaK1?w=119&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Natra :Ma đồng giáng thế"
+                />
+              </a>
+              <div class="rate">8.9/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Natra :Ma đồng giáng thế">
+                <h3>Natra :Ma đồng giáng thế</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Huyền Thiên Ký">
+                <img
+                  src="https://th.bing.com/th/id/OIP.ub1K-8cx1A6KkFtdepxWpQHaJl?w=145&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Huyền Thiên Ký"
+                />
+              </a>
+              <div class="rate">8.4/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Huyền Thiên Ký">
+                <h3>Huyền Thiên Ký</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-custom">
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Tình Yêu Vĩnh Cửu">
+                <img
+                  src="https://th.bing.com/th/id/OIP.GCAPH3qYKV2wPFHTjG9QKgHaJ4?w=130&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Tình Yêu Vĩnh Cửu"
+                />
+              </a>
+              <div class="rate">8.7/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Tình Yêu Vĩnh Cửu">
+                <h3>Tình Yêu Vĩnh Cửu</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Kiếm Thế Vô Song">
+                <img
+                  src="https://th.bing.com/th/id/OIP.9w_a5j0ewuhvzUfAeHrwrgHaJ8?w=123&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Kiếm Thế Vô Song"
+                />
+              </a>
+              <div class="rate">8.0/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Kiếm Thế Vô Song">
+                <h3>Kiếm Thế Vô Song</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Phượng Nghịch Thiên Hạ">
+                <img
+                  src="https://th.bing.com/th/id/OIP.ed7_k16RJRTk9BCeO01wRAHaKH?w=198&h=271&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Phượng Nghịch Thiên Hạ"
+                />
+              </a>
+              <div class="rate">8.5/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Phượng Nghịch Thiên Hạ">
+                <h3>Phượng Nghịch Thiên Hạ</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Cửu Chuyển Thần Ma">
+                <img
+                  src="https://th.bing.com/th/id/OIP.ps7tL_4Ws56aY6QNMpR_fAAAAA?w=198&h=296&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Cửu Chuyển Thần Ma"
+                />
+              </a>
+              <div class="rate">9.2/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Cửu Chuyển Thần Ma">
+                <h3>Cửu Chuyển Thần Ma</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Tiên Đạo Độc Tôn">
+                <img
+                  src="https://th.bing.com/th/id/OIP.ZhtceXvmiECBRdkEdNfjegAAAA?w=119&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Tiên Đạo Độc Tôn"
+                />
+              </a>
+              <div class="rate">8.6/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Tiên Đạo Độc Tôn">
+                <h3>Tiên Đạo Độc Tôn</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-md-2 book-item">
+            <div class="book-cover">
+              <a href="" title="Long Vương Truyền Thuyết">
+                <img
+                  src="https://th.bing.com/th/id/OIP.xShus8zxMto6Pw7GHpxGtgHaJ4?w=198&h=264&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                  alt="Long Vương Truyền Thuyết"
+                />
+              </a>
+              <div class="rate">7.9/10</div>
+            </div>
+            <div class="book-info">
+              <a href="/noi-dung-truyen/" title="Long Vương Truyền Thuyết">
+                <h3>Long Vương Truyền Thuyết</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row load">
+        <div class="col-md-12">
+          <div class="load-more">
+            <a href="#" data-paged="1">Xem Thêm</a>
+          </div>
+        </div>
+        <!-- ::after -->
+      </div>
+      <div class="hr"></div>
+      <!-- ::after -->
+    </div>
+  </div>
+  <div class="section_update_book">
+    <div class="container">
+      <div class="row row-title">
+        <div class="col-md-12 col-lg-9">
+          <div class="row">
+            <div class="col-xs-6">
+              <h2 title="Truyện mới cập nhật" class="rv-sr-a" href="">
+                Truyện mới cập nhật
+              </h2>
+              <!-- ::after -->
+            </div>
+            <div class="col-xs-6">
+              <select class="album" name="ss_category_newest">
+                <option value="A2">Tất cả</option>
+                <option value="B11">Truyện Sủng</option>
+                <option value="B1">Việt Nam</option>
+                <option value="B31">Ngôn Tình</option>
+                <option value="B4">Đam Mỹ</option>
+                <option value="C1">Truyện Khác</option>
+                <option value="D16">Xuyên Không</option>
+                <option value="F11">Huyền huyễn</option>
+                <option value="G31">Đô Thị</option>
+                <option value="L6">Linh Dị</option>
+                <option value="L6">Cổ Đại</option>
+                <option value="L6">Trọng Sinh</option>
+                <option value="L6">Truyện Sắc</option>
+                <option value="L6">Tiên Hiệp</option>
+                <option value="L6">Điền Văn</option>
+                <option value="L6">Hài Hước</option>
+                <option value="L6">Quân Sự</option>
+              </select>
+            </div>
+            <!-- ::after -->
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="book-category book-reading">
+            <h3 class="rv-full-story-title">Truyện đánh dấu</h3>
+            <span
+              style="
+                font-family: 'Roboto' sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 1.3;
+              "
+              >Nhấn để xem</span
+            >
+          </div>
+          <div class="book-category book-reading">
+            <h3 class="rv-full-story-title">Truyện đang đọc</h3>
+            <span
+              style="
+                font-family: 'Roboto' sans-serif;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 1.3;
+              "
+              >Nhấn để xem</span
+            >
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+          <div class="book-category">
+            <h3 class="title">Thể loại Truyện</h3>
+            <ul>
+              <li><a href="#ngontinh">Ngôn Tình</a></li>
+              <li><a href="#tienhiep">Tiên Hiệp</a></li>
+              <li><a href="#kiemhiep">Kiếm Hiệp</a></li>
+              <li><a href="#dothi">Đô Thị</a></li>
+              <li><a href="#dammy">Đam Mỹ</a></li>
+              <li><a href="#nguoc">Ngược</a></li>
+              <li><a href="#sung">Sủng</a></li>
+              <li><a href="#trinhtham">Trinh Thám</a></li>
+              <li><a href="#xuyenkhong">Xuyên Không</a></li>
+              <li><a href="#trongsinh">Trọng Sinh</a></li>
+              <li><a href="#dienvan">Điền Văn</a></li>
+              <li><a href="#quanxuong">Quân Sự</a></li>
+            </ul>
+            <ul>
+              <li><a href="#huyenhuyen">Huyền Huyễn</a></li>
+              <li><a href="#linhdi">Linh Dị</a></li>
+              <li><a href="#khoahuyen">Khoa Huyễn</a></li>
+              <li><a href="#vongdu">Võng Du</a></li>
+              <li><a href="#digaio">Dị Giới</a></li>
+              <li><a href="#cotich">Cổ Tích</a></li>
+              <li><a href="#truyenteen">Truyện Teen</a></li>
+              <li><a href="#haihuoc">Hài Hước</a></li>
+              <li><a href="#sac">Sắc</a></li>
+              <li><a href="#codal">Cổ Đại</a></li>
+              <li><a href="#vietnam">Việt Nam</a></li>
+              <li><a href="#phuongtay">Phương Tây</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- ::after -->
+      </div>
+      <div class="hr"></div>
+      <!-- ::after -->
+    </div>
+  </div>
+  <div class="section-finish">
+    <div class="container">
+      <div class="row row-title">
+        <div class="col-xs-6">
+          <h2 class="title">
+            <a title="truyenfull" class="rv-sr-a" href=""
+              >Truyện đã hoàn thành</a
+            >
+            <!-- ::after -->
+          </h2>
+        </div>
+        <div class="col-xs-6">
+          <select name="ss_category_completed" class="album">
+            <option value="A1">Tiên Hiệp</option>
+            <option value="">Kiếm Hiệp</option>
+            <option value="">Ngôn Tình</option>
+            <option value="">Đô Thị</option>
+            <option value="">Quan Trường</option>
+            <option value="">Võng Du</option>
+            <option value="">Khoa Huyễn</option>
+            <option value="">Xuyên Không</option>
+            <option value="">Truyện Teen</option>
+            <option value="">Nữ Phụ</option>
+            <option value="">Việt Nam</option>
+            <option value="">Truyện Khác</option>
+          </select>
+        </div>
+        <!-- ::after -->
+      </div>
+      <div class="row" id="rows-completed">
+        <div class="col-xs-6 col-md-4 col-lg-3 full" style="height: 128.2px">
+          <!-- ::before -->
+          <a href="">
+            <img
+              src="https://th.bing.com/th/id/OIP.A6LqcHXRF-22dIkejmpbEQHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+              alt="Completed book"
+            />
+          </a>
+          <div class="info">
+            <div class="chap">62 Chương</div>
+            <a href="" title="Thoát Khỏi Nam Thần Gả Vào Hào Môn FULL">
+              <h3>
+                <div class="name-book">
+                  Thoát Khỏi Nam Thần Gả Vào Hào Môn FULL
+                </div>
+              </h3>
+            </a>
+            <div class="rate">
+              <!-- ::before -->
+              "7.1/10"
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other completed books with same image -->
+      </div>
+      <div class="row load">
+        <div class="col-md-12">
+          <div class="load-more" id="load-more-completed"></div>
+        </div>
+        <!-- ::after -->
+      </div>
+      <!-- ::after -->
+    </div>
+  </div>
+  <div class="section-footer">
+    <div class="hr">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-2">
+            <ul class="f_bt">
+              <li>
+                <a href="" title="đọc truyện"
+                  ><img
+                    src="https://th.bing.com/th/id/OIP.AV3DPMTdvdfbDtqtYL2QkwAAAA?w=171&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="đọc truyện"
+                /></a>
+              </li>
+              <li class="ve-dau-trang">
+                <a href="#top" class="fbt">Về đầu trang</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <p><b>
+              PMC là nơi cập nhật những truyện hay và mới nhất từ các tác giả
+              nổi tiếng trong và ngoài nước.
+              <br />
+              "Với hơn 20 thể loại truyện, đọc truyện trên sstruyen.vn trở nên
+              dễ dàng hơn bao giờ hết với hệ thống đọc truyện tiện lợi và đa
+              dạng. Hãy đến với sstruyen.vn để khám phá thế giới truyện đầy màu
+              sắc!"
+            </b>
+            </p>
+            <p><b>Liên hệ: ykai120506@gmail.com</b></p>
+          </div>
+          <div class="col-xs-12 col-md-5 tags">
+            <ul>
+              <li>
+                <a
+                  href=""
+                  class="tags"
+                  style="color: red"
+                  title="đọc truyện"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
